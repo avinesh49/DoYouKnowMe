@@ -1,8 +1,6 @@
 var readLineSync = require("readline-sync");
-
-var score = 0;
-
 var userName = readLineSync.question("What's your name?\n");
+var score = 0;
 
 console.log("Welcome "+userName+" let us see how well do you know Avinesh\n");
 console.log("Rules:\n1) There are 10 questions in total\n2) You get 1 point for each right answer\n3) There is no deduction of points for wrong answer\n");
@@ -31,7 +29,6 @@ var questions = [
     d) Chennai`,
     answer: 'b'
   },
-
   {
     question: `Where does he work?
     a) Unizen
